@@ -1,0 +1,252 @@
+/* General style rules */
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #444;
+  background-color: #f1ede4;
+  font-size: 10pt;
+}
+
+a {
+  color: #966;
+}
+
+p {
+  margin-left: 1em;
+}
+
+h2 {
+  margin-left: 1em;
+}
+
+h2 p {
+  margin-left: 2em;
+}
+
+h3 {
+  margin-left: 2em;
+} 
+
+h3 p {
+  margin-left: 3em;
+} 
+
+#top, #content {
+
+}
+
+/* Top section */
+#top {
+  background: url(./images/header_blob.png) no-repeat;
+  height: 271px;
+  width: 1000px;
+  margin: 0% auto;
+}
+
+/* Box containing H1 */
+#title h1 {
+  padding-top: 40px;
+  padding-right: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#title {
+  text-align: left;
+  font-size: 150%;
+  padding-left: 5em;
+}
+
+#title a {
+  position: relative;
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+
+/* Picture navigation */
+#galleries {
+  
+}
+
+#galleries ul {
+  padding-top: 0;
+  margin-top: -5px;
+  list-style-type: none;
+  width: 100%;
+}
+
+#galleries li {
+  display: inline;
+}
+
+#galleries li a {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 120px;
+  background-color: #f1ede4;
+  margin: 0px 10px;
+  color: white;
+  border: 1px solid #f1ede4;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 2px;
+}
+
+/* Box with small links */
+#submenu {
+  padding: 0 40px 0 0px;
+  clear: both;
+  color: #f1ede4;
+  text-align: right;
+}
+
+#submenu p {
+  padding-top: 4px;
+}
+
+
+/* Main content section */
+#content {
+  width: 900px;
+  height: 100%;
+  margin: 0% auto;
+}
+
+#content img {
+  padding: 2px;
+  border: 1px solid #aaa;
+}
+
+/* Right hand pic preview and submenu */
+#sidebar h2 {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+#sidebar {
+  float: right;
+  width: 110px;
+  font-size: 80%;
+  border-left: 1px dotted #444;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-bottom: 2em;
+}
+
+#sidebar.killhope_submenu {
+  font-size: 110%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#sidebar ul li {
+  margin: 0 0 5px 0;
+  padding: 0;
+  display: block;
+}
+
+#sidebar ul li a {
+  display: block;
+  background-color: #f1ede4;
+  margin: 0px 10px;
+  color: white;
+  border: 1px solid #f1ede4;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 2px;
+
+}
+
+#sidebar.killhope_submenu {
+  right: 0;
+  border: none;
+  width: 140px;
+  margin-left: 2em;
+  padding-bottom: 5em;
+  height: 100%;
+}
+
+#sidebar.killhope_submenu ul li a {
+  width: 120px;
+  height: 120px;
+  margin-left: 2em;
+border: 2px solid #444;
+}
+
+#sidebar.killhope_submenu ul li {
+  padding-bottom: 1em;
+}
+
+/*#sidebar.killhope_submenu {
+  height:100%;
+  width: 120px;
+}*/
+
+.killhope_submenu ul li {
+  width: 120px;
+  height: 120px;
+/*   background-color: #444; */
+  border: 1px solid #f1ede4;
+  text-align: left;
+}
+
+.killhope_submenu ul li a {
+  font-size: 130%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Per section images */
+#galleries .intro a {
+  background-image: url(./images/home.jpg);
+}
+
+#galleries .artist a {
+  background-image: url(./images/artist.jpg);
+}
+
+#galleries .cliffe_castle a {
+  background-image: url(./images/cliffe_castle.jpg);
+}
+
+#galleries .cv a {
+  background-image: url(./images/cv.jpg);
+}
+
+#galleries .killhope a {
+  background-image: url(./images/killhope.jpg);
+}
+
+#galleries .caldbeck a {
+  background-image: url(./images/caldbeck_nav.jpg);
+}
+
+
+/* Killhope subsection */
+#sidebar .k_home a {
+  background-image: url(./images/killhope_home.jpg);
+}
+
+#sidebar .k_making a {
+  background-image: url(./images/killhope_making.jpg);
+}
+
+#sidebar .k_finished a {
+  background-image: url(./images/killhope_finished.jpg);
+}
+
+#sidebar .k_grove a {
+  background-image: url(./images/killhope_groverake.jpg);
+}
+
+

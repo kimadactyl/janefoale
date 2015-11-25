@@ -1,0 +1,155 @@
+body {
+	font-family: 'Arial', sans-serif;
+	color: #444;
+	background-color: #eef;
+	font-size: 10pt;
+}
+
+#global {
+
+}
+
+#top {
+	position: absolute;
+	top: 5px;
+	height: 130px;
+	width: 1000px;
+	/* border: 1px solid blue; */
+}
+
+#top h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+#top h1 a:hover {
+	text-decoration: underline;
+}
+
+#top h2 {
+	font-size: 14pt;
+	padding: 0;
+	margin: 0 8px 0 0;
+}
+
+#top #finished, #top #in_progress, #top #title {
+	background-color: #333;
+	height: 165px;
+	float: left;
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+}
+
+#top #title {
+	width: 150px;
+	text-align: left;
+}
+
+#top #finished {
+	width: 568px;
+	margin-left: 25px;
+}
+
+#top #in_progress {
+	width: 280px;
+	margin-left: 25px;
+	
+}
+
+
+#top ul {
+	margin: 0;
+	list-style-type: none;	
+	width: 100%;
+	display: inline;
+	
+}
+
+#top li {
+	padding-top: 0;
+	float: left;
+	width: 106px;
+	height: 106px;
+	margin: 0px 8px 0px 8px;;
+	padding: 7px 7px 0px 7px;
+}
+
+#top li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px dotted white;
+}
+
+#top li a:hover {
+	border-bottom: 1px dashed white;
+}
+
+#top .proc, #top .hand,  #top .frac, #top .auto, #top .mole, #top .petro {
+	text-align: right;
+}
+
+#top .proc {
+	background-image: url('./images/proc.jpg');
+	background-repeat: no-repeat;
+}
+
+#top .hand {
+	background-image: url('./images/hand.jpg');
+	background-repeat: no-repeat;
+}
+
+#top .start {
+	background-image: url('./images/start.jpg');
+	background-repeat: no-repeat;
+}
+
+#top .auto {
+	background-image: url('./images/auto.jpg');
+	background-repeat: no-repeat;
+}
+
+#top .mole {
+	background-image: url('./images/mole.jpg');
+	background-repeat: no-repeat;
+}
+
+#top .petro {
+	background-image: url('./images/petro.jpg');
+	background-repeat: no-repeat;
+}
+
+
+#content {
+	margin-top: 220px;
+	width: 568px;
+	margin-left: 195px;
+}
+
+#content img {
+	border: 1px solid #444;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#content img.last {
+	margin-right: 0;
+}
+
+#contact {
+	position: absolute;
+	top: 220px;
+	width: 165px;
+	text-align: center;	
+}
+
+#contact a {
+	text-decoration: none;
+	color: #766;
+}
+
+#contact a:hover {
+	text-decoration: underline;
+}
